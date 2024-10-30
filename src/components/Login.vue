@@ -39,7 +39,7 @@ import axios from 'axios'
 
 const visible = ref(false)
 const login_info = ref({
-  email:null,
+  email:null, 
   password: null
 })
 

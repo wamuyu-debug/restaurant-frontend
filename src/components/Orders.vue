@@ -3,6 +3,7 @@
     <!-- Order Details -->
     <div>
         <v-card class="mx-auto my-12" max-width="600" >
+
             <v-card-item>
                     <v-card-title class="text-center">Current Order</v-card-title>
                 </v-card-item>
@@ -110,7 +111,7 @@
         order_id  : null, 
         payment_type : 'Mpesa', //To Do: use drop down to select options
         amount : null, 
-        user_id : 4, //To Do: get user after login
+        user_id : 2, //To Do: get user after login
         payment_status : "paid"
 
     })
